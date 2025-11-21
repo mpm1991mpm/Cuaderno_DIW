@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css23.css">
+</head>
+<body>
+    
+    <table class="horario">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora">8:00 - 9:00</td>
+                <td class="estudiar" rowspan="3">Estudiar</td>
+                <td class="estudiar" rowspan="3">Estudiar</td>
+                <td class="estudiar" rowspan="3">Estudiar</td>
+                <td class="estudiar" rowspan="3">Estudiar</td>
+                <td class="estudiar" rowspan="3">Estudiar</td>
+                <td class="descanso" rowspan="6">Descanso</td>
+                <td class="descanso" rowspan="6">Descanso</td>
+            </tr>
+            <tr>
+                <td class="hora">9:00 - 10:00</td>
+            </tr>
+            <tr>
+                <td class="hora">10:00 - 11:00</td>
+            </tr>
+            <tr>
+                <td class="hora">11:00 - 12:00</td>
+                <td class="gimnasio" rowspan="2">Gimnasio</td>
+                <td class="gimnasio" rowspan="2">Gimnasio</td>
+                <td class="gimnasio" rowspan="2">Gimnasio</td>
+                <td class="gimnasio" rowspan="2">Gimnasio</td>
+                <td class="gimnasio" rowspan="2">Gimnasio</td>
+            </tr>
+            <tr>
+                <td class="hora">12:00 - 13:00</td>
+            </tr>
+            <tr>
+                <td class="hora">13:00 - 14:00</td>
+                <td class="descanso">Descanso</td>
+                <td class="descanso">Descanso</td>
+                <td class="descanso">Descanso</td>
+                <td class="descanso">Descanso</td>
+                <td class="descanso">Descanso</td>
+            </tr>
+            <tr>
+                <td class="hora">22:00 - 01:00</td>
+                <td class="noche" colspan="7">Jugar a la pley</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="8">Horario: Estudiar de 8 a 11, gimnasio 11-13h, clase de 3 a 9,  Noche: Jugar de 10 a 1 de la mañana</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

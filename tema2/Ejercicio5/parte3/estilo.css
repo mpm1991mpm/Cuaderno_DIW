@@ -1,0 +1,17 @@
+.padre {
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(7, 218, 7);
+}
+
+.c {
+    background-color: white;
+    border: 2px solid rgb(247, 198, 206);
+    border-radius: 10px;
+    width: 33%;
+    margin: 1%;
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}

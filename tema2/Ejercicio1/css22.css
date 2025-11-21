@@ -1,0 +1,16 @@
+        .contenedor {
+            width: 300px;
+            height: 300px;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            border: 2px solid #333;
+        }
+        
+        .textocentrado {
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0;
+        }

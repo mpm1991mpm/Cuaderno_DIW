@@ -1,0 +1,10 @@
+.listauno > li {
+    color: rgb(87, 9, 38);
+}
+
+/* Estilos para elementos de lista NO ordenada */
+.listados > li {
+    color: rgb(75, 182, 75);
+    font-weight: bold;
+    
+}

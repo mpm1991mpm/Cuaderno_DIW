@@ -1,0 +1,17 @@
+  .boton {
+            
+            background-color: gray;
+            color: white;
+            border: 5px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.5s;
+        }
+        
+        .boton:hover {
+            background-color: blue;
+        }
+        
+        .boton:active {
+            background-color: green;
+        }

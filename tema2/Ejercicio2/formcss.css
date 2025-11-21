@@ -1,0 +1,23 @@
+
+button {
+  background-color: #b83280;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a0276e;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.fondo {
+    background-image: url(vestidos.png)
+
+}

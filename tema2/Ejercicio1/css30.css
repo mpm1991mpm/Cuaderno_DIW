@@ -1,0 +1,43 @@
+body {
+    margin: 2em;
+    background-color: #f0f0f0;
+}
+
+.formulario {
+    margin: 0 auto;
+    background: white;
+    padding: 2em;
+}
+
+.campo {
+    width: 100%;
+    padding: 0.8em;
+    margin: 0.5em 0;
+    border: 1px solid #352525;
+    background-color: #f8f8f8;
+    color: #000;
+    font-size: 1em;
+    height: 2.5em;
+}
+
+.area-texto {
+    height: 8em;
+}
+
+.campo:focus {
+    border-color: #0066cc;
+}
+
+.boton {
+    background-color: #3366cc;
+    color: white;
+    padding: 0.8em 2em;
+    border: none;
+    margin: 1em auto;
+    width: 10em;
+    height: 3em;
+}
+
+.boton:hover {
+    background-color: #2244aa;
+}

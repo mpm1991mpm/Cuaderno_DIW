@@ -1,0 +1,10 @@
+.Parte1 li:nth-child(even) {
+  text-decoration: underline;
+}
+.Parte1 li:nth-child(odd) {
+  text-decoration: line-through;
+}
+
+.Parte2 li:nth-child(4n) {
+  color: green;
+}

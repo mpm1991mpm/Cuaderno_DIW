@@ -1,0 +1,13 @@
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.elemento {
+    border: 1px solid #2f00ea;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}

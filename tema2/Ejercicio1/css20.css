@@ -1,0 +1,17 @@
+.may {
+            text-transform: uppercase;
+            background-color: color aqua;
+        }
+        
+        .min {
+            text-transform: lowercase;
+            background-color: color wheat;
+           
+        }
+        
+        .reg {
+            text-transform: capitalize;
+            background-color: color green;
+           
+        }
+        

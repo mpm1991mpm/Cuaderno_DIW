@@ -1,0 +1,6 @@
+.texto{
+    font-weight: bold;;
+}
+.texto:first-child {
+    color: rgb(24, 51, 168);
+}

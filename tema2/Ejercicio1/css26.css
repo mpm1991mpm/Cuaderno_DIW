@@ -1,0 +1,17 @@
+     .listauno {
+            list-style-type: upper-roman;
+            color: darkblue;
+            font-size: 50px;
+        }
+        
+        .listados{
+            color: darkred;
+            font-size: 30px;
+        }
+        
+        .listatres {
+            color: darkgreen;
+            font-size: 20px;
+        }
+        
+       
