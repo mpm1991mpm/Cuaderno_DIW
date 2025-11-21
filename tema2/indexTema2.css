@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://img.pikbest.com/backgrounds/20190806/interface-background-in-the-concept-of-technology-background-v_1520269jpg!w700wp);
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grupo-titulo h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.grupo-titulo p {
+  margin: 5px 0 0 0;
+  color: #000000;
+  font-size: 14px;
+}
+
+.enlace-volver {
+  text-decoration: none;
+  background: #e2e8f0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  color: #222;
+  font-size: 14px;
+}
+
+.titulo-seccion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  margin-bottom: 8px;
+}
+
+.lista a {
+  display: block;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.lista a:hover {
+  background: #000000;
+}
