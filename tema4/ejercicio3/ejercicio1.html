@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Conversión de Video</title>
+</head>
+<body>
+
+    <h1>Ejercicio 1: Comparativa de Formatos</h1>
+
+    <h2>1. Formato MP4</h2>
+    <video width="400" controls>
+        <source src="videoMP4.mp4">
+        Tu navegador no soporta este video.
+    </video>
+    <ul>
+        <li><strong>Compresión:</strong> H.264 (Video) + MP3 (Audio)</li>
+        <li><strong>Tasa de bits:</strong> 1000 kb/s</li>
+        <li><strong>Tamaño:</strong> 5.2 MB</li>
+        <li><strong>Ajustes realizados:</strong> Reducción de bitrate a 1000kbps para web.</li>
+    </ul>
+
+    <hr>
+
+    <h2>2. Formato WebM</h2>
+    <video width="400" controls>
+        <source src="videoWebm.webm">
+    </video>
+    <ul>
+        <li><strong>Compresión:</strong> VP8 + Vorbis</li>
+        <li><strong>Tasa de bits:</strong> 900 kb/s</li>
+        <li><strong>Tamaño:</strong> 4.8 MB</li>
+        <li><strong>Ajustes realizados:</strong> Perfil estándar WebM.</li>
+    </ul>
+
+    <hr>
+
+    <h2>3. Formato OGG</h2>
+    <video width="400" controls>
+        <source src="videoOgg.ogg">
+    </video>
+    <ul>
+        <li><strong>Compresión:</strong> Theora + Vorbis</li>
+        <li><strong>Tasa de bits:</strong> 1100 kb/s</li>
+        <li><strong>Tamaño:</strong> 5.5 MB</li>
+        <li><strong>Ajustes realizados:</strong> Conversión con Theora.</li>
+    </ul>
+
+</body>
+</html>

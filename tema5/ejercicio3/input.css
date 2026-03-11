@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.tarjeta {
+    @apply bg-white border-none rounded-3xl w-150 h-100 p-15 m-auto;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="lienzo" width="500" height="400" style="border:1px solid blue">
+
+    </canvas>
+</body>
+</html>
+
+<script>
+    let hoja = document.getElementById("lienzo");
+    let dibujo = hoja.getContext("2d");
+
+    dibujo.arc(150, 150, 80, 0, Math.PI);
+    dibujo.lineWith = 1;
+    dibujo.strokeStyle = "red";
+    dibujo.stroke();
+
+</script>

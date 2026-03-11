@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-200 font-sans p-4 h-screen">
+
+<div class="flex flex-col gap-4 h-full">
+
+  <div class="bg-white rounded-xl shadow-md flex flex-row justify-between items-center w-full p-4 h-20">
+    <div class="flex flex-row items-center gap-4">
+      <div class="bg-blue-600 w-10 h-10 rounded-md"></div> <span class="font-black text-xl">Panel</span> </div>
+    <div class="bg-gray-300 w-12 h-12 rounded-full"></div> </div>
+
+  <div class="flex flex-row gap-4 h-full">
+    
+    <div class="bg-white rounded-xl shadow-md w-24 flex flex-col items-center py-8 gap-4 h-full">
+      <div class="bg-red-500 w-10 h-10 rounded-md"></div>
+      <div class="bg-green-500 w-10 h-10 rounded-md"></div>
+    </div>
+
+    <div class="flex flex-col gap-6 w-full h-full">
+      
+      <div class="flex flex-row gap-6 w-full h-32">
+        <div class="bg-blue-500 rounded-xl shadow-md flex flex-col justify-center w-1/2 p-6 text-white">
+          <p class="text-sm font-thin opacity-80">Ventas</p>
+          <p class="text-3xl font-black">10000€</p>
+        </div>
+        <div class="bg-green-500 rounded-xl shadow-md flex flex-col justify-center w-1/2 p-6 text-white">
+          <p class="text-sm font-thin opacity-80">Usuarios</p>
+          <p class="text-3xl font-black">100</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-6 h-full border-4 border-gray-300 border-dotted relative flex flex-col"> <h3 class="font-bold text-gray-600 text-lg mb-4">Ventas por mes</h3>
+
+        <div class="flex flex-row justify-around items-end h-full w-full pb-2"> <div class="flex flex-col items-center gap-2 group">
+            <div class="w-12 h-24 bg-blue-400 rounded-t-md"></div> <p class="text-xs text-gray-500 font-bold">Enero</p> </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <div class="w-12 h-40 bg-blue-600 rounded-t-md"></div>
+            <p class="text-xs text-gray-500 font-bold">Febrero</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <div class="w-12 h-16 bg-indigo-400 rounded-t-md"></div>
+            <p class="text-xs text-gray-500 font-bold">Marzo</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <div class="w-12 h-56 bg-indigo-600 rounded-t-md"></div>
+            <p class="text-xs text-gray-500 font-bold">Abril</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <div class="w-12 h-32 bg-purple-400 rounded-t-md"></div>
+            <p class="text-xs text-gray-500 font-bold">Mayo</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <div class="w-12 h-48 bg-purple-600 rounded-t-md"></div>
+            <p class="text-xs text-gray-500 font-bold">Junio</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

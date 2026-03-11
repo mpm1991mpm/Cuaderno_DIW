@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="lienzo" width="500" height="400" style="border:1px solid blue">
+
+    </canvas>
+</body>
+</html>
+
+<script>
+    let hoja = document.getElementById("lienzo");
+    let dibujo = hoja.getContext("2d");
+
+    dibujo.fillStyle = "red";
+    dibujo.fillRect(100, 50, 300, 300)
+
+    dibujo.fillStyle = "white";
+    dibujo.fillRect(110, 60, 20, 20)
+
+    dibujo.fillStyle = "white";
+    dibujo.fillRect(240, 190, 20, 20)
+
+    dibujo.fillStyle = "white";
+    dibujo.fillRect(370, 320, 20, 20)
+
+</script>

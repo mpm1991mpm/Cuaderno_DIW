@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="lienzo" width="500" height="300" style="border:1px solid blue">
+
+    </canvas>
+</body>
+</html>
+
+<script>
+    let hoja = document.getElementById("lienzo");
+    let dibujo = hoja.getContext("2d");
+
+    dibujo.beginPath();
+    dibujo.moveTo(20,10);
+    dibujo.lineTo(20, 290);
+    dibujo.lineWidth=5;
+    dibujo.strokeStyle = "red";
+    dibujo.stroke();
+
+    dibujo.beginPath();
+    dibujo.moveTo(40,10);
+    dibujo.lineTo(40, 290);
+    dibujo.moveTo(60,10);
+    dibujo.lineTo(60, 290);
+    dibujo.moveTo(80,10);
+    dibujo.lineTo(80, 290);
+    dibujo.lineWidth=5;
+    dibujo.strokeStyle = "yellowgreen";
+    dibujo.stroke();
+
+    dibujo.beginPath();
+    dibujo.moveTo(160,10);
+    dibujo.lineTo(120, 80);
+    dibujo.moveTo(160,10);
+    dibujo.lineTo(200, 80);
+    
+    dibujo.moveTo(160,100);
+    dibujo.lineTo(120, 170);
+    dibujo.moveTo(160,100);
+    dibujo.lineTo(200, 170);
+
+    dibujo.moveTo(160,190);
+    dibujo.lineTo(120, 260);
+    dibujo.moveTo(160,190);
+    dibujo.lineTo(200, 260);
+    dibujo.lineWidth=5;
+    dibujo.strokeStyle = "blue";
+    dibujo.stroke();
+</script>

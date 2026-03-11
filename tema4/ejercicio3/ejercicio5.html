@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <video id="medio" width="720" height="400">
+        <source src="https://commondatastorage.googleapis.com/gtv-videosbucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    </video>
+    <nav>
+        <input type="button" id="reiniciar" value="reiniciar">
+        <input type="button" id="retrasar" value="&laquo;">
+        <input type="button" id="play" value="&#9658;">
+        <input type="button" id="adelantar" value="&raquo;">
+        <input type="button" id="silenciar" value="silenciar">
+        <label>Volumen</label>
+        <input type="button" id="menosVolumen" value="-">
+        <input type="button" id="masVolumen" value="+">
+    </nav>
+</body>
+</html>
+
+<script>
+
+    let video = document.getElementById("medio");
+    let botonReiniciar = document.getElementById("reiniciar");
+    let botonRetrasar= document.getElementById("retrasar");
+    let botonPlay = document.getElementById("play");
+    let botonAdelantar = document.getElementById("adelantar");
+    let botonSilenciar = document.getElementById("silenciar");
+    let botonMenos = document.getElementById("menosVolumen");
+    let botonMas = document.getElementById("masVolumen");
+
+    botonReiniciar.addEventListener("click", function() {
+        video.currentTime = 0;
+    })
+
+    botonRetrasar.addEventListener("click", function() {
+        video.currentTime -=5;
+    })
+
+    botonAdelantar.addEventListener("click", function() {
+        video.currentTime +=5;
+    })
+
+    botonSilenciar.addEventListener("click", function() {
+        video.mute;
+    })
+
+    botonMenos.addEventListener("click", function() {
+        video.volume -= 0.1;
+    })
+
+    botonMas.addEventListener("click", function() {
+        video.volume += 0.1;
+    })
+
+</script>
